@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: https://github.com/jagannadhamyuvaraj/cwvj-app1-config.git
     targetRevision: HEAD
-    path: .
+    path: app1-config/
   destination:
     server: https://kubernetes.default.svc
     namespace: app1-ns
