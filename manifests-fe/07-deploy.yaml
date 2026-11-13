@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: fe-container
-          image: jagannadhamyuvaraj/product1-fe:v1.0.0
+          image: jagannadhamyuvaraj/product-fe:v1.0.0
           imagePullPolicy: Always
           ports:
             - containerPort: 4000
